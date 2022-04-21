@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringSOAPdemo:war">
+    <output-path>$PROJECT_DIR$/SpringSOAPdemo/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SpringSOAPdemo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="create-soap-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SpringSOAPdemo:war exploded" />
+    </root>
+  </artifact>
+</component>
